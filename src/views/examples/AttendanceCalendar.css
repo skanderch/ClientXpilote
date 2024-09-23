@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Header Styles */
+h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Filter Button */
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Filter Form Styles */
+.filter-form {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Calendar Styles */
+.react-calendar {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.react-calendar__tile {
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.react-calendar__tile:hover {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+/* Attendance Tile Styles */
+.attendance-tile {
+  position: relative;
+}
+
+.attendance-tile .details-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 14px;
+  color: #007bff;
+}
+
+/* Card Styles */
+.info-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styles */
+.text-success {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.text-danger {
+  font-weight: bold;
+  color: #dc3545;
+}
