@@ -153,17 +153,7 @@ const AttendanceCalendar = () => {
                     </Input>
                   </FormGroup>
                 </Col>
-                <Col md={3} className="mb-2">
-                  <FormGroup>
-                    <Label for="departmentSelect" className="font-weight-bold">Department</Label>
-                    <Input type="select" id="departmentSelect" value={selectedDepartment} onChange={(e) => setSelectedDepartment(e.target.value)}>
-                      <option value="">All Departments</option>
-                      {departments.map((department) => (
-                        <option key={department} value={department}>{department}</option>
-                      ))}
-                    </Input>
-                  </FormGroup>
-                </Col>
+                
                 <Col md={3} className="mb-2">
                   <FormGroup>
                     <Label for="productionSiteSelect" className="font-weight-bold">Production Site</Label>
@@ -175,16 +165,7 @@ const AttendanceCalendar = () => {
                     </Input>
                   </FormGroup>
                 </Col>
-                <Col md={3} className="mb-2">
-                  <FormGroup>
-                    <Label for="attendanceStatusSelect" className="font-weight-bold">Attendance Status</Label>
-                    <Input type="select" id="attendanceStatusSelect" value={selectedAttendanceStatus} onChange={(e) => setSelectedAttendanceStatus(e.target.value)}>
-                      <option value="">All Statuses</option>
-                      <option value="Present">Present</option>
-                      <option value="Absent">Absent</option>
-                    </Input>
-                  </FormGroup>
-                </Col>
+                
               </Row>
               <Row form className="align-items-center">
                 <Col md={3} className="mb-2">
